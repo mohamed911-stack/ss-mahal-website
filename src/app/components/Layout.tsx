@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router";
 import { Button } from "./ui/button";
-import { Phone, MapPin, Instagram, Facebook, Youtube, X, Menu, Calendar } from "lucide-react";
+import { Phone, MapPin, Youtube, X, Menu, Calendar } from "lucide-react";
 import { BookingModal } from "./BookingModal";
 import ssmahalLogo from "../../assets/ss_mahal_logo.png";
 
@@ -150,11 +150,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Chennai's beloved wedding destination in Kumananchavadi — where every celebration becomes a cherished memory.
               </p>
               <div className="flex gap-4">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                  <Instagram className="w-5 h-5 cursor-pointer hover:text-amber-400 transition-colors" />
+                <a href="https://youtube.com/@ssmahal-b4o?si=fZWNNjIiNzbrBn3z" target="_blank" rel="noopener noreferrer">
+                  <Youtube className="w-5 h-5 cursor-pointer hover:text-amber-400 transition-colors" />
                 </a>
-                <Facebook className="w-5 h-5 cursor-pointer hover:text-amber-400 transition-colors" />
-                <Youtube className="w-5 h-5 cursor-pointer hover:text-amber-400 transition-colors" />
               </div>
             </div>
 
@@ -195,9 +193,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Instagram className="w-4 h-4 flex-shrink-0 text-amber-400" />
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">
-                    instagram.com
+                  <Youtube className="w-4 h-4 flex-shrink-0 text-amber-400" />
+                  <a href="https://youtube.com/@ssmahal-b4o?si=fZWNNjIiNzbrBn3z" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">
+                    YouTube
                   </a>
                 </div>
               </div>

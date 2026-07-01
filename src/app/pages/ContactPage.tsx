@@ -7,7 +7,7 @@ import { Label } from "../components/ui/label";
 import { Textarea } from "../components/ui/textarea";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../components/ui/accordion";
 import {
-  Phone, MapPin, Clock, Instagram, Calendar, MessageCircle,
+  Phone, MapPin, Clock, Youtube, Calendar, MessageCircle,
   Gift, Navigation, Car, Users
 } from "lucide-react";
 
@@ -304,18 +304,18 @@ export function ContactPage() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Instagram className="w-4 h-4 text-white" />
+                    <div className="w-10 h-10 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Youtube className="w-4 h-4 text-white" />
                     </div>
                     <div>
-                      <p className="font-semibold text-red-900">Instagram</p>
+                      <p className="font-semibold text-red-900">YouTube</p>
                       <a
-                        href="https://instagram.com"
+                        href="https://youtube.com/@ssmahal-b4o?si=fZWNNjIiNzbrBn3z"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-700 hover:text-pink-600 transition-colors"
+                        className="text-gray-700 hover:text-red-600 transition-colors"
                       >
-                        instagram.com
+                        YouTube
                       </a>
                     </div>
                   </div>
